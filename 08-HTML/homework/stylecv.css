@@ -1,0 +1,33 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://i.pinimg.com/originals/6a/96/bb/6a96bbd8b78d7c6b473024e043b71408.jpg");
+}
+.divClass {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+.edu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 19px;
+     }   
+.exp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+}
+.skills {
+    display: flex;
+    justify-content: space-around;
+    font-size: 19px;
+}
+img {
+    max-width: 160px;
+    float: right;
+    margin: 0 0 1em 1em;
+}

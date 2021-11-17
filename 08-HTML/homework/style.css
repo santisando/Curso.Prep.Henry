@@ -1,0 +1,52 @@
+    
+html, body {
+        margin: 0;
+        padding: 0;
+        background-image: url("https://assets.soyhenry.com/logoOG.png");
+    }
+.divClass {
+        display: flex;
+        flex-direction: column;
+        justify-content: center; /* alinear horizontal*/
+        align-items: center; /* alinear vertical*/
+        }
+.divClass h1, .divClass h3, .divClass h4 {
+        color: orange;
+        margin: 10px;
+        text-align: center; 
+    }
+#spanId {
+        font-size: 18px;
+        margin: 50px;   
+    }
+#thirdDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 600px;
+        max-width: 500px;
+        margin: 0 auto;
+        padding: 50px;
+        background-color: gold;
+        border-width: 10px; 
+        border-color: yellow;
+        border-style: double; 
+        -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+                 box-sizing: border-box;
+    }
+#thirdDiv img {
+        width: 400px;
+        display: flex;
+        justify-content: center;
+    }
+#thirdDiv ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+p {
+    color: blue;
+    font-size: 20px;
+    }
